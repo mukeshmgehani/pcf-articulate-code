@@ -7,7 +7,3 @@ applications:
   instances: 1
   buildpack: java_buildpack
   stack: cflinuxfs2
-  env:
-    JAVA_OPTS: -Xss228k
-  services:
-  - attendee-service
